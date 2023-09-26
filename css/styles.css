@@ -65,7 +65,6 @@ body {
 /* = link-list = */
 .page-link {
   color: var(--secondary-txt-cl);
-  font-family: var(--main-font);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -159,11 +158,6 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
-
-/* .team-deck {
-  font-weight: 400;
-} */
-
 /* ====== /Team section ====== */
 
 /* ====== Footer ====== */
@@ -232,6 +226,13 @@ body {
 .project-deck {
   color: var(--main-txt-cl);
   line-height: 1.87;
+}
+
+.project-subtitle:hover,
+.project-subtitle:focus,
+.project-deck:hover,
+.project-deck:focus {
+  color: var(--accent-cl);
 }
 /* = /Project list = */
 
