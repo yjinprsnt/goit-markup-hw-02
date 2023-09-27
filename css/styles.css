@@ -87,6 +87,7 @@ body {
 .contact-mail-link,
 .contact-tel-link {
   color: currentColor;
+  font-weight: 500;
 }
 /* = /contact-list = */
 /* ====== /Page header ====== */
@@ -158,6 +159,11 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
+
+.team-deck {
+  font-size: 16px;
+  line-height: 1.18;
+}
 /* ====== /Team section ====== */
 
 /* ====== Footer ====== */
@@ -225,6 +231,7 @@ body {
 
 .project-deck {
   color: var(--main-txt-cl);
+  font-size: 16px;
   line-height: 1.87;
 }
 
