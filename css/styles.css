@@ -130,6 +130,7 @@ body {
 .advantag-subtitle {
   color: var(--secondary-txt-cl);
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
